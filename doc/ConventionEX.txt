@@ -1,0 +1,9 @@
+Class Exemple(int _a)
+{
+private:
+	m_variable_privée;
+	MFonction;
+public:
+	variable_public;
+	FonctionPublic;	
+};
