@@ -14,7 +14,7 @@ SceneManager::~SceneManager(){
 
 void SceneManager::Init(){
 	m_nextScene = nullptr;
-	Scene1* s = new Scene1();
+	Scene2* s = new Scene2();
 	m_currentScene = s;
 	m_currentScene->Init();
 }

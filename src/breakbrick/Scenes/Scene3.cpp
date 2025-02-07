@@ -27,9 +27,5 @@ void Scene3::Update(float _delta_time){
 		SceneManager* scene_manager = GameManager::GetInstance()->GetSceneManager();
 		scene_manager->SetNextScene(new Scene2());
 	}
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
-		SceneManager* scene_manager = GameManager::GetInstance()->GetSceneManager();
-		scene_manager->SetNextScene(new Scene1());
-	}
 	Scene::Update(_delta_time);
 }

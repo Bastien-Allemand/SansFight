@@ -14,12 +14,3 @@ int main()
 
 	return 0;
 }
-
-//Priorités :
-// Faire les destructeurs
-
-
-// Passer sur l'écran de fin quand on a perdu 
-// Ecrire un texte de victoire
-
-
